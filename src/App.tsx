@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react'
+import React, { useCallback, useMemo, useState } from 'react'
 import { View } from 'react-native'
 
 import { Project } from 'app/types/Project'
@@ -12,7 +12,6 @@ import { Task } from 'app/types/Task'
 function App() {
   const [projects, setProjects] = useState(PROJECTS)
   const [selectedProjectName, setSelectedProjectName] = useState<string | null>(null)
-  // const [tasks, setTasks] = useState<Task[]>(PROJECTS.flatMap(project => project.tasks))
 
   const tasks = useMemo(
     () =>
