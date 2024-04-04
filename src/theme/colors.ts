@@ -16,5 +16,8 @@ export default {
   primary: {
     main: '#009A17',
     contrast: '#fff'
+  },
+  toggle: {
+    border: '#ccc'
   }
 }

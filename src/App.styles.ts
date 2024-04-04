@@ -10,6 +10,7 @@ export default StyleSheet.create({
   },
   column: {
     flex: 1,
-    height: '100%'
+    height: '100%',
+    marginLeft: '2px'
   }
 })
